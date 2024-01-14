@@ -26,7 +26,7 @@ npm run server
 
 1.Install Tailwind
 ```
-npm install -D tailwindcss
+npm install -D tailwindcss postcss autoprefixer
 ```
 2.Initilize Tailwind-Config file
 ```
@@ -34,7 +34,7 @@ npx tailwindcss init
 ```
 3.Update File extension to Tailwind-config file
 ```
-"./src/**/*.{html,js,jsx,tx,tsx}"
+["./index.html","./src/**/*.{html,js,jsx,tx,tsx}"]
 ```
 
 4.Add tailwind directive to the index.css  file
