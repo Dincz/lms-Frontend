@@ -30,6 +30,7 @@ function HomePage() {
                                 Contact Us
                             </button>
                         </Link>
+
                     </div>
                 </div>
 
